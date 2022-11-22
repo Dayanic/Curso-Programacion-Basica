@@ -153,7 +153,7 @@ function startGame() {
 }
 
 function joinTheGame() {
-    fetch("http://localhost.local:8080/join")
+    fetch("http://MacBook-Air-de-Dayane.local:8080/join")
         .then(function (res) {
             if (res.ok) {
                 res.text()
@@ -501,4 +501,3 @@ function checkCollision(enemy) {
 }
 
 window.addEventListener('load', startGame);
-

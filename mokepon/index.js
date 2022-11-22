@@ -6,6 +6,9 @@ const cors = require("cors");
 //Se crea app con express JS
 const app = express();
 
+//Mediante esta ip puedo entrar desde celular apple
+http://MacBook-Air-de-Dayane.local:8080
+
 //Permite que en una url podamos servir archivos estáticos
 app.use(express.static('public'));
 //Se finaliza configuración de cors
