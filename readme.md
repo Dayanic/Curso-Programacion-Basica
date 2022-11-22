@@ -387,7 +387,7 @@ Un tercer tipo de intercambio de información entre un servidor y un cliente es 
 
 Un servidor puede enviar información de estudiantes, clases y cursos al cliente para que este construya la interfaz con los mismos y el usuario pueda interactuar con los datos.
 ![](https://cdn.document360.io/da52b302-22aa-4a71-9908-ba18e68ffee7/Images/Documentation/image%28755%29.png)
-Los datos suelen intercambiarse a través un formato de texto conocido como JSON o *Javascript Object Notation*. JSON es el estándar más utilizado hoy en día para intercambiar información entre aplicaciones y definir estructuras en los daots. El aspecto de este tipo de información es como el siguiente:
+Los datos suelen intercambiarse a través un formato de texto conocido como JSON o *Javascript Object Notation*. JSON es el estándar más utilizado hoy en día para intercambiar información entre aplicaciones y definir estructuras en los datos. El aspecto de este tipo de información es como el siguiente:
 ```javascript
 {
     "nombre": "Diana",
